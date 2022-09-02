@@ -10,13 +10,15 @@
 </head>
 
 <body class=" min-h-screen font-mono grid place-items-center bg-sky-100">
-  <div class="p-4 bg-white rounded-3xl">
-    <h1 class=" text-2xl font-bold mb-4">Node.js File Upload</h1>
+  <div class="py-4 bg-white rounded-3xl">
+    <h1 class="px-4 text-2xl font-bold mb-4">Node.js File Upload</h1>
     <form id="uploadForm" enctype="multipart/form-data">
-      <label for="myFiles">上傳檔案</label>
+      <label for="myFiles" class="py-4 block text-center">上傳檔案</label>
       <input type="file" accept="image/*" id="myFiles" multiple
-        class="block mb-4 w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
-      <input type="submit" value="Submit" class="bg-sky-500 text-white rounded-md p-2">
+        class="file:mr-4 file:py-2 file:px-4 block w-full text-sm text-slate-500 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+      <div class="px-4 pt-4">
+        <input type="submit" value="Submit" class="bg-sky-500 text-white rounded-md p-2">
+      </div>
     </form>
     <div>
       <span id="status"></span>
