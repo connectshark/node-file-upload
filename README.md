@@ -1,4 +1,5 @@
 # node-file-upload
+![cover](/readme/cover.png)
 
 學習影片來源 > [**Youtube**](https://youtu.be/4pmkQjsKJ-U)
 
