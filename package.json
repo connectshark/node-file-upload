@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app"
+    "serve": "node --watch app"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,5 @@
   "dependencies": {
     "express": "^4.18.1",
     "express-fileupload": "^1.4.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
   }
 }
